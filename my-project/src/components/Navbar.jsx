@@ -2,7 +2,7 @@
 function Navbar() {
   return (
     <>
-        <nav className='fixed top-0 border b-1 shadow-md w-full p-[14px]'>
+        <nav className='fixed top-0 border b-1 shadow-md w-full p-[14px] bg-white'>
             <h2 className='text-2xl'>Health Tracker</h2>
         </nav>
     </>
