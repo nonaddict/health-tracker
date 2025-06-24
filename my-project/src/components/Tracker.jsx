@@ -1,6 +1,6 @@
 import {useState} from "react"
 
-function PullUp() {
+function Tracker() {
     const [pushUps,setPushUps]=useState(localStorage.getItem("pushUps")||0)
     const [pullUps,setPullhUps]=useState(localStorage.getItem("pullUps")||0)
     function handlePushUpsChange(event){
@@ -21,4 +21,4 @@ function PullUp() {
     )
 }
 
-export default PullUp
+export default Tracker

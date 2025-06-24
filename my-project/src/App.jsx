@@ -1,12 +1,12 @@
 import Navbar from "./components/Navbar"
-import PullUp from "./components/PullUp"
+import Tracker from "./components/Tracker"
 
 function App() {
   return (
     <>
     <Navbar/> 
      <div className="mt-[90px]">   
-        <PullUp/>
+        <Tracker/>
     </div>
     </>
    
