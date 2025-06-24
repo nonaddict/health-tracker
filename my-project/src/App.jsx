@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <Navbar/> 
-     <div className="mt-[90px]">    
+     <div className="mt-[90px]">   
         <PullUp/>
     </div>
     </>
